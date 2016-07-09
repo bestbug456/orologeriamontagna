@@ -1,0 +1,44 @@
+@font-face{
+	font-family: AppleFontP; src: url('../fonts/applefont/myriad-set-pro_text.ttf')format('truetype'); 
+}
+@font-face{
+	font-family: AppleFontB; src: url('../fonts/applefont/myriad-set-pro_ultralight.ttf')format('truetype'); 
+}
+p{
+	font-family: AppleFontP;
+}
+b{
+	font-family: AppleFontB;
+}
+
+
+#menu-md{
+	padding-top: 20px;
+
+}
+body{
+	background-color: #E1E1E1;
+}
+#riparazioni{
+	display: none;
+}
+#orari{
+	display: none;
+}
+#contatti{
+	display: none;
+}
+#footer{
+	margin-top: 330px;
+}
+
+
+@media (max-width: 990px) { 
+	#content{
+		padding-top: 20px;
+	}
+	img{
+		max-width: 220px;
+	}
+}
+
